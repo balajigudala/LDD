@@ -1,4 +1,3 @@
-//dumbel
 #include<stdio_ext.h>
 #include<string.h>
 #include<fcntl.h>
@@ -6,7 +5,6 @@
 #include<sys/ioctl.h>
 
 #define EXIT 0
-
 #define BASIC_MAGIC 'a'
 #define RD_VALUE _IOR(BASIC_MAGIC, 1, char*)
 #define WR_VALUE _IOW(BASIC_MAGIC, 2, char*)
